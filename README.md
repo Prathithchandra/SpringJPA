@@ -1,0 +1,3 @@
+#ORM and JPA
+In Java we use ORM that is Object Relational Mapping. It helps us to create tables by using the class as blueprint. The objects created from it will be the data stored in tables and the variables will be the columns.This concept is called Object Relational Mapping.
+So here we have created a model class that is used for creating table we specidy @Entity annotation so that its considered as the one format creating table structure. We have used application.properties so that all the neccessary configurations has to be made to get the connection to database. We have just used the Repository interface where we extend JPA Repository so that we get access to all the methods.
